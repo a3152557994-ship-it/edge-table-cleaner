@@ -1,0 +1,34 @@
+{
+  "name": "edge-table-cleaner",
+  "version": "1.0.0",
+  "description": "100% local HTML table cleaner & Excel/CSV exporter (rowspan/colspan expansion, financial currency/comma sanitizer, multi-page header deduplication) — MV3 browser extension + web app.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "exports": {
+    ".": "./src/cleaner.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build-extension.mjs",
+    "test": "node scripts/build-extension.mjs && node --test tests/cleaner.test.mjs"
+  },
+  "keywords": [
+    "html-table",
+    "excel",
+    "csv",
+    "edge-extension",
+    "chrome-extension",
+    "manifest-v3",
+    "rowspan",
+    "colspan",
+    "finance"
+  ],
+  "author": "a3152557994-ship-it",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a3152557994-ship-it/edge-table-cleaner.git"
+  },
+  "homepage": "https://a3152557994-ship-it.github.io/edge-table-cleaner/"
+}

@@ -1,0 +1,15 @@
+# Edge Table Cleaner (edge-table-cleaner)
+
+> 100% local, zero-upload HTML table cleaner and Excel/CSV exporter (Manifest V3 browser extension for Microsoft Edge & Chrome + pure frontend web app) designed for finance, procurement, and government bidding workflows.
+
+## Core Capabilities
+- **Complex rowspan/colspan 2D Grid Alignment**: Expands multi-level headers and merged category cells into clean rectangular grids ready for Excel PivotTables and `SUM()` formulas.
+- **Financial & Procurement Sanitizer**: Automatically strips currency prefixes/suffixes (`¥`, `$`, `€`, `£`, `元`), removes thousands separators, converts accounting parentheses `(1,250.00)` into negative numbers `-1250.00`, strips footnote markers (`[1]`, `[注2]`, `*`), and preserves leading-zero invoice/account codes (`0038492019`) as text.
+- **Multi-Page Longitudinal Merge (Pro)**: Stages tables across paginated intranet ERP/OA portals and merges them vertically while automatically deduplicating repeated headers.
+- **Zero-Dependency Local Exports**: Generates genuine Office Open XML `.xlsx`, SpreadsheetML `.xls`, and UTF-8 BOM `.csv` entirely inside the browser.
+
+## Pricing & Links
+- Free single-table cleaning & export; ¥19 / $9.9 one-time lifetime Pro buyout (`OPC1.` offline Ed25519 verification).
+- Live Web App: https://a3152557994-ship-it.github.io/edge-table-cleaner/
+- Repository & MV3 Download: https://github.com/a3152557994-ship-it/edge-table-cleaner
+- Contact: 3152557994@qq.com / a3152557994@gmail.com
